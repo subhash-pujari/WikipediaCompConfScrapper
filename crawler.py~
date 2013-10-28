@@ -76,8 +76,7 @@ def htmlParser(content):
 	for i in dictDomainConf.keys():
 		print 'Key>>' + i
 		for j in dictDomainConf[i]:
-			line = i +'\t'+ j + '\n'
-			fileCSV.write(line)
+			line = i +'\t'+ j
 		
 	print len(domainStringList)
 
